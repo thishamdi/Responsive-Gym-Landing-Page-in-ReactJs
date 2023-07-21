@@ -1,0 +1,238 @@
+.pricing_top {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pricing_top h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.pricing_top p {
+    color: var(--heading-color);
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+/*.pricing_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+}*/
+
+.pricing_wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-gap: 2.5rem;
+    place-content: center;
+}
+
+.pricing_item {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.pricing_card_top {
+    padding: 30px;
+    border-bottom: 1px solid #d3cef2;
+    text-align: center;
+}
+
+.pricing_card_top h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+
+}
+
+.pricing_card_top h2:nth-child(2) {
+    font-size: 1.4rem;
+}
+
+.pricing_card_top h2 span {
+    font-size: 1rem;
+    color: #666;
+}
+
+.pricing_item .services {
+    text-align: center;
+    padding: 30px;
+}
+
+.pricing_item .services ul li {
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #666;
+    line-height: 28px;
+}
+
+.pricing_item .services ul li span {
+    font-size: 0.7rem;
+}
+
+.services button {
+    margin-top: 50px;
+}
+
+.pricing_item-02 .pricing_card_top {
+    background: var(--primary-color);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.pricing_item-02 .pricing_card_top h2 {
+    color: #fff;
+}
+
+.pricing_item-02 .pricing_card_top h2 span {
+    color: rgb(255, 255, 255, 0.788);
+}
+
+.pricing_item-02 .services ul li span i {
+    color: var(--primary-color);
+}
+
+
+
+
+
+@media only screen and (min-width:0px) and (max-width: 359px) {
+
+    .pricing_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    .section_pricing {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .pricing_item {
+        width: 75%;
+        margin-bottom: 2rem;
+    }
+
+    .pricing_top {
+        margin-bottom: 40px;
+    }
+
+    .pricing_top h2 {
+        font-size: 1.8rem;
+    }
+
+    .pricing_top p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+    .pricing_card_top {
+        padding: 20px;
+        border-bottom: 1px solid #d3cef2;
+        text-align: center;
+    }
+
+    .pricing_card_top h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+
+    }
+
+    .pricing_card_top h2:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .pricing_card_top h2 span {
+        font-size: 1rem;
+        color: #666;
+    }
+
+    .pricing_item .services {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .pricing_item .services ul li {
+        display: flex;
+        align-items: center;
+        column-gap: 0.7rem;
+        color: #666;
+        line-height: 19px;
+        margin-bottom: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .pricing_item .services ul li span {
+        font-size: 0.5rem;
+    }
+
+    .services button {
+        margin-top: 12px;
+        font-size: 0.7rem;
+    }
+
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width: 767px) {
+
+    .pricing_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0rem;
+    }
+
+    .section_pricing {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .pricing_item {
+        width: 75%;
+        margin-bottom: 2rem;
+    }
+
+    .pricing_top h2 {
+        font-size: 2rem;
+    }
+
+    .pricing_top p {
+        font-size: 1.1rem;
+        line-height: 20px;
+    }
+
+    .pricing_item .services ul li {
+        
+        column-gap: 0.7rem;
+        
+        line-height: 19px;
+        margin-bottom: 0.8rem;
+    }
+
+    .services button {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+
+/*============= responsive ========= */
+
+/*@media only screen and (max-width: 1024px) {
+
+
+    .pricing_item .services ul li {
+        text-align: left;
+    }
+
+    
+}*/
