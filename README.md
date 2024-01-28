@@ -1,1 +1,1 @@
-![Image Alt text](/src/assets/img/cap.gif)
+![Image Alt text](/src/assets/img/capt.gif)
